@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    float n1,n2,sum;
+    printf ("veuillez entrer le nombre 1 :");
+    scanf ("%f",&n1);
+    printf ("veuillez entrer le nombre 2 :");
+    scanf ("%f",&n2);
+    sum = n1 + n2;
+   if (n1 = n2)  { 
+       sum = *3
+}   
+    printf ("somme de Deux Valeurs :%f\n", sum );
+
+    return 0;
+}

@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int main() {
+   float positif ,negatif, nul,n 
+   
+   printf ("veuillez entrer le nombre positif :");
+   scanf ("%f",&positif);
+   printf ("veuillez entrer le nombre negatif :");
+   scanf ("%f",&negatif);
+   printf ("veuillez entrer le nombre nul :");
+   scanf ("%f",&nul);
+
+
+   if ( 0 > n)
+   printf ("le nombre est positif");
+
+   else if ( 0 < n)
+   printf ("le nombre est negatif");
+
+   else 
+   printf ("le nombre est nul");
+     
+   
+   
+   
+
+
+    return 0;
+}

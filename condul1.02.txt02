@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    int N,n,v; 
+    printf(" entrer vérifie si un caractere voyelle ou non:");
+    scanf("%s",&N);
+
+    switch (N){
+    case c : printf ("voyelle");
+             break;
+    case c : printf ("non");
+            break;
+    default : printf("le caractere est incorect ");
+            break;
+    }
+
+    return 0;
+}

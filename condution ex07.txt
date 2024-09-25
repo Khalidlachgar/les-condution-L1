@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main() {
+   int n;
+printf ("veuillez entrer le moyenne de l'etudient :");
+scanf ("%d",&n);
+
+if (n<=10){
+    printf ("l'etudient est recale ");
+}
+else if (10<n<=12) {
+    printf("l'etudient est mention passable ");
+}
+else if (12<n<=14){
+    printf("l'etudient est mention assez bien ");
+}
+else if (14<n<=16){
+    printf ("l'etudient est mention bien ") ;
+}
+else {
+    printf ("l'etudient est mention tres bien ");
+}   
+
+    return 0;
+}

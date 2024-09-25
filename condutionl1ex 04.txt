@@ -1,0 +1,41 @@
+#include <stdio.h>
+
+int main() {
+   int lannee,Q;
+   float Mois,Jours ,Heures,Secondes;
+   printf ("entrer lannne de c'est percene ");
+   scanf ("%d",&lannee);
+   printf("entrer le mois ");
+   printf("entrer le jours");
+   printf("entrer le heures");
+   printf("entrer le secondes");
+   scanf ("%f",&Mois,&Jours,&Heures,&Secondes);
+   switch (Q) {
+      case 1 :
+             Mois = lannee * 12;
+             printf("lannee %d equivalent de Mois %f");
+             break;
+      case 2 :
+             Jours = lannee * 365;
+             printf("lanne %d equivalent de jours %f");
+             break;
+      case 3 :
+            Heures = lannee * 365 * 24;
+            printf ("lannee %d equivalent de heures %f");
+            break;
+       case 4 :
+            Secondes = lannee * 365 * 24 * 24;
+            printf ("lannee %d equivalent de seconde");
+            break;
+         default:   
+     printf ("invalide Q \n");       
+
+
+   }
+
+
+   
+
+
+    return 0;
+}
